@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>veb2lab</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.[2c5685b1].css" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="form">
+        <form class="settings" id="settings-form">
+            <div class="form-item">
+                <label>Выберите фигуру
+                    <select id="current-shape">
+                        <option value="circle">Круг</option>
+                        <option value="triangle">Треугольник</option>
+                        <option value="rectangle">Прямоугольник</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-item">
+                <label>Введите HEX цвет фигуры
+                    <input type="text" id="shape-fill-color" />
+                </label>
+                <label>Введите HEX цвет границы
+                    <input type="text" id="shape-border-color" />
+                </label>
+            </div>
+            <div class="form-item">
+                <div class="circle-settings" id="circle-block">
+                    <label>Радиус
+                        <input type="text" id="radius" />
+                    </label>
+                    <label>Позиция по Х
+                        <input type="text" id="circleX" />
+                    </label>
+                    <label>Позиция по Y
+                        <input type="text" id="circleY" />
+                    </label>
+                </div>
+                <div class="triangle-settings" id="triangle-block">
+                    <div class="point">
+                        <label>Х1
+                            <input type="text" id="triangleX1" />
+                        </label>
+                        <label>Y1
+                            <input type="text" id="triangleY1" />
+                        </label>
+                    </div>
+                    <div class="point">
+                        <label>Х2
+                            <input type="text" id="triangleX2" />
+                        </label>
+                        <label>Y2
+                            <input type="text" id="triangleY2" />
+                        </label>
+                    </div>
+                    <div class="point">
+                        <label>Х3
+                            <input type="text" id="triangleX3" />
+                        </label>
+                        <label>Y3
+                            <input type="text" id="triangleY3" />
+                        </label>
+                    </div>
+                </div>
+                <div class="rectangle-settings" id="rectangle-block">
+                    <div class="point">
+                        <label>Х1
+                            <input type="text" id="rectangleX1" />
+                        </label>
+                        <label>Y1
+                            <input type="text" id="rectangleY1" />
+                        </label>
+                    </div>
+                    <div class="point">
+                        <label>Х2
+                            <input type="text" id="rectangleX2" />
+                        </label>
+                        <label>Y2
+                            <input type="text" id="rectangleY2" />
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div id="form-info">
+
+        </div>
+    </div>
+    <div class="canvas">
+        <canvas id="holst" height="400" width="400">
+
+        </canvas>
+    </div>
+</div>
+<footer class="footer">
+    <script type="text/javascript" src="js/main.min.[6b26707a].js"></script>
+</footer>
+</body>
+</html>

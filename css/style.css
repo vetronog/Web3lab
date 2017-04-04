@@ -1,0 +1,30 @@
+body, div, ul, li, p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.rectangle-settings, .triangle-settings
+{
+    display: none;
+}
+
+.form{
+    width: 200px;
+    float:left;
+}
+
+.canvas{
+    background-color: black;
+    float:left;
+}
+
+#holst{
+    background-color: #aaa;
+}
